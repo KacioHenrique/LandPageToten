@@ -14,8 +14,6 @@ body {
 
 #video1 {
   margin-top: 10%;
-  margin-left: 10%;
-  /* margin-right: 10%; */
   margin-bottom: 10%;
   border-style: solid;
   border-width: 20px;
@@ -25,45 +23,53 @@ body {
 .square{
     height: 100px;
     width: 100px;
-    background-color: aqua;
+    background-color:rgb(51,196,92);
 }
+
+/* @media (min-width: 500) */
+.text-vid {
+  padding-top: 50;
+}
+.sm-sp {
+  margin-bottom: 80;
+}
+
+
 </style>   
 
 </head>
-
 <body>
-
 <div class="container-fluid">
-    <div class="row">
-      <div class="col" style="background-color:black;">
-        <video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls id="video1">
-        Seu navegador não suporta o elemento <code>video</code>.
-         </video >
-    </div>
-      <div class="col" style="background-color:black;">
-        <h1 style="color:cadetblue">Prepare Seus <br>Sentidos</h1>
-        <h2 style="color:darkgreen">Uma experiência de leitura <br>como você nunca viu antes</h2>
-    </div>
+  <img src="recourses/totem logo.png" class="rounded mx-auto d-block" alt="Logo totem" width="206" height="90">
+  <div class="row align-items-center">
+      <div class="col-md-6 col-sm-12" style="background-color:black;">
+        <div class="embed-responsive embed-responsive-4by3" id="video1">
+          <iframe class="embed-responsive-item" src="recourses/eyeclose.mp4" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12 sm-sp" style="background-color:black;">
+        <h1 style="color:rgb(71, 191, 191)" class="text-center text-vid">Prepare Seus <br>Sentidos</h1>
+        <h2 style="color:rgb(51,196,92)" class="text-center">Uma experiência de leitura <br>como você nunca viu antes</h2>
+      </div>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col" style="background-color:white;">
-     
-         <h1 style="color:cadetblue">Prepare Seus <br>Sentidos</h1>
-         <h2 style="color:darkgreen">Uma experiência de leitura <br>como você nunca viu antes</h2>
-    </div>
-      <div class="col" style="background-color:white;">
-        <video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls id="video1" style="border-color:turquoise">
-            Seu navegador não suporta o elemento <code>video</code>.
-             </video >
+  <div class="container-fluid" style="background-color:white;">
+    <div class="row align-items-center">
+      <div class="col-md-6 col-sm-12" style="background-color:white;">
+         <h1 style="color:rgb(71, 191, 191)" class="text-center">Prepare Seus <br>Sentidos</h1>
+         <h2 style="color:rgb(51,196,92)" class="text-center">Uma experiência de leitura <br>como você nunca viu antes</h2>
+      </div>
+      <div class="col-md-6 col-sm-12" style="background-color:white;">
+        <div class="embed-responsive embed-responsive-4by3" id="video1">
+          <iframe class="embed-responsive-item" src="recourses/promo velhinha_blackBG.mp4" allowfullscreen></iframe>
+        </div>
     </div>
     </div>
   </div>
   <div class="row">
   <div class="col-sm-3"><img src="http://placehold.it/400x400" height="220" /></div>
-  <div class="col-sm-3"><img src="http://placehold.it/800x400" height="220" /></div>
-  <div class="col-sm-3"><img src="http://placehold.it/400x400" height="220" /></div>
+  <div class="col-sm-3"><img  src="http://placehold.it/800x400" height="220"/></div>
+  <div class="col-sm-3"><img style ="margin-left: 220px" src="http://placehold.it/400x400" height="220" /></div>
 </div>
 </body>
 
