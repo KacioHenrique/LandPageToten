@@ -20,7 +20,9 @@ body {
   border-width: 20px;
   border-color: aliceblue;
 }
-
+#navBar{
+  background-color: #00C0C0;
+}
 .square{
     height: 100px;
     width: 100px;
@@ -75,14 +77,33 @@ h2{
 
    
   <div class="container-fluid">
-    <div class="row align-items-center" style="margin-top: 20px">
+    <!-- <div class="row align-items-center" style="margin-top: 20px">
       <div class="col-sm-12" style="background-color:black;">
         <img src="recourses/totem only.png" class="rounded mx-auto d-block" alt="Logo totem">
       <div>  
       <div class="row align-items-center">
           <img src="recourses/clube_1.png" class="rounded mx-auto d-block" alt="Logo totem">
       </div>
-    </div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg" style="background-color:turquoise;">
+      <a class="navbar-brand" href="#">
+        <img src="recourses/totem only.png" alt="logo do totem">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="color:white;margin-top: 9px;">Como Funciona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color:white;margin-top: 9px;">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/totemclube/"><img src="recourses/INSTAGRAM.png" class="img-fluid" alt="Logo totem" style="transform: scale(0.7);"></a>
+            </li>
+          </ul>
+      </div>    
+    </nav>
+    
     <div class="row align-items-center">
       <div class="col-md-6 col-sm-12" style="background-color:black;">
         <div class="embed-responsive embed-responsive-4by3" id="video1">
