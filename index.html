@@ -1,138 +1,204 @@
+
+<!DOCTYPE html>
+
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<title>Totem</title>
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-<style>
-body {
-    background-color: black ;
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  <title>Totem Clube</title>
+  
+  <!-- Fontes -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+
+
+  <!-- CSS -->
+  <style>
+    
+    body {
+      background-color: black;
+      font-family: 'Roboto';font-size: 22px;
     }
 
-#video1 {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  border-style: solid;
-  border-width: 20px;
-  border-color: aliceblue;
-}
-#navBar{
-  background-color: #00C0C0;
-}
-.square{
+  #video1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: aliceblue;
+  }
+
+  .square{
     height: 100px;
     width: 100px;
     background-color:rgb(51,196,92);
-}
+  }
 
-/* @media (min-width: 500) */
-.text-vid {
-  padding-top: 50;
-}
-.sm-sp {
-  margin-bottom: 80;
-}
-body{
-  font-family: 'Roboto';font-size: 22px;
-}
-h1{
-  font-size: 3rem;
-}
-h2{
-  font-size: 2rem;
-}
-/* iphones*/
-@media (mim-width:544px){
-  h1{
-    font-size: 1rem;
+  /* @media (min-width: 500) */
+  .text-vid {
+    padding-top: 50;
   }
-  h2{
-    font-size: 0.5rem;
+  
+  .sm-sp {
+    margin-bottom: 80;
   }
-  .logo{
-    margin-top: 20%;
-  }
-}
-@media (mim-width:768px){
-  h1{
-    font-size: 2.5rem;
-  } 
-  h2{
-    font-size: 1.5rem;
-  }
-}
-@media (min-width: 1200px) {  
-  h1 {font-size:4rem;}
-  h2 {font-size:2rem}   
-}
 
-</style>   
+  h1{
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  h2{
+    font-size: 2rem;
+  }
+  
+  /* iphones*/
+  @media (mim-width:544px){
+    
+    h1{
+      font-size: 1rem;
+    }
+    
+    h2{
+      font-size: 0.5rem;
+    }
+  
+    .logo{
+      margin-top: 20%;
+    }
+
+  }
+  
+  @media (mim-width:768px){
+    
+    h1{
+      font-size: 2.5rem;
+    } 
+  
+    h2{
+      font-size: 1.5rem;
+    }
+  }
+ 
+  @media (min-width: 1200px) {  
+    
+    h1 {font-size:4rem;}
+  
+    h2 {font-size:2rem}   
+  }
+
+  </style>   
 
 </head>
-<body>
 
+
+<!------->
+<body>
    
+  <!-- header + sessao 1 -->
   <div class="container-fluid">
-    <!-- <div class="row align-items-center" style="margin-top: 20px">
-      <div class="col-sm-12" style="background-color:black;">
-        <img src="recourses/totem only.png" class="rounded mx-auto d-block" alt="Logo totem">
-      <div>  
-      <div class="row align-items-center">
-          <img src="recourses/clube_1.png" class="rounded mx-auto d-block" alt="Logo totem">
-      </div>
-    </div> -->
-    <nav class="navbar navbar-expand-lg" style="background-color:turquoise;">
-      <a class="navbar-brand" href="#">
-        <img src="recourses/totem only.png" alt="logo do totem">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#" style="color:white;margin-top: 9px;">Como Funciona</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="color:white;margin-top: 9px;">Quem Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.instagram.com/totemclube/"><img src="recourses/INSTAGRAM.png" class="img-fluid" alt="Logo totem" style="transform: scale(0.7);"></a>
-            </li>
-          </ul>
-      </div>    
-    </nav>
     
+    <!-- header -->
+    <div class="row align-items-center" style="margin-top: 20px">
+      
+      <div class="col-sm-12" style="background-color:black;">
+        <img src="recourses/totem only.png" 
+        	 class="rounded mx-auto d-block"
+        	 alt="Logo totem">
+      <div>  
+      
+      <div class="row align-items-center">
+          <img src="recourses/clube_1.png" 
+          	   class="rounded mx-auto d-block" 	
+          	   alt="Logo totem">
+      </div>
+
+    </div>
+    
+    <!-- seção 1 -->
     <div class="row align-items-center">
+      
       <div class="col-md-6 col-sm-12" style="background-color:black;">
+        
         <div class="embed-responsive embed-responsive-4by3" id="video1">
-          <video  class="embed-responsive-item" controls loop allowfullscreen autoplay>
+          
+          <video  class="embed-responsive-item" controls loop allowfullscreen autoplay>    
             <source  src="recourses/totem_olho.mp4" type="video/mp4">
             Your browser does not support playing this Video
-        </video>
+          </video>
+        
         </div>
+      
       </div>
+      
       <div class="col-md-6 col-sm-12 sm-sp" style="background-color:black;">
-        <h1 style="color:rgb(71, 191, 191)" class="text-right text-vid">Prepare Seus <br>Sentidos</h1>
-        <h2 style="color:rgb(51,196,92)" class="text-right">Uma experiência de leitura <br>como você nunca viu antes</h2>
-        <a href="https://www.instagram.com/totemclube/"><img src="recourses/INSTAGRAM.png" class="float-right img-fluid" alt="Logo totem"></a>
+        
+        <h1 style="color:rgb(71, 191, 191)" class="text-left text-vid">
+        	LEIA <br>
+        	E SINTA
+        </h1>
+
+        <h2 style="color:rgb(51,196,92)" class="text-left">
+        	Uma nova experiência de leitura <br>
+            imersiva está chegando.
+        </h2>
+
+        <a href="https://www.instagram.com/totemclube/">
+        	<img src="recourses/INSTAGRAM.png" 
+                 class="float-left img-fluid" 
+                 alt="vídeo teaser">
+        </a>
+
       </div>
     </div>
   </div>
+
+  <!-- sessão 2 -->>
   <div class="container-fluid" style="background-color:white;">
+    
     <div class="row align-items-center">
+      
       <div class="col-md-6 col-sm-12" style="background-color:white;">
-         <h1 style="color:rgb(71, 191, 191)" class="text-left">Prepare Seus <br>Sentidos</h1>
-         <h2 style="color:rgb(51,196,92)" class="text-left">Uma experiência de leitura <br>como você nunca viu antes</h2>
-         <a href="https://www.instagram.com/totemclube/"><img src="recourses/INSTAGRAM.png" class="float-left img-fluid" alt="Logo totem"></a>
+         
+        <h1 style="color:rgb(71, 191, 191)" class="text-right">
+           UM CLUBE <br>
+           DIFERENTE
+        </h1>
+        
+        <h2 style="color:rgb(51,196,92)" class="text-right">
+          Sinta a leitura imesiva de seus amigos,<br>
+          e crie suas próprias para a comunidade.
+        </h2>
+        
+        <a href="https://www.instagram.com/totemclube/">
+        	<img src="recourses/INSTAGRAM.png" 
+                 class="float-right img-fluid" 
+                 alt="vídeo teaser">
+         </a>
+
+      </div>
+
+
+        <div class="col-md-6 col-sm-12" style="background-color:white;">
+        
+          <div class="embed-responsive embed-responsive-4by3" id="video1">
+            <iframe class="embed-responsive-item" 
+                    src="recourses/promo velhinha_blackBG.mp4" 
+                    allowfullscreen>        
+            </iframe>
+          </div>
+
         </div>
-      <div class="col-md-6 col-sm-12" style="background-color:white;">
-        <div class="embed-responsive embed-responsive-4by3" id="video1">
-          <iframe class="embed-responsive-item" src="recourses/promo velhinha_blackBG.mp4" allowfullscreen></iframe>
-        </div>
-    </div>
-    </div>
+      </div>
   </div>
 </body>
 
