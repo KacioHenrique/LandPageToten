@@ -1,0 +1,73 @@
+/* CSS file */
+
+body {
+      background-color: black;
+      font-family: 'Roboto';font-size: 22px;
+    }
+
+  #video1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: aliceblue;
+  }
+
+  .square{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(51,196,92);
+  }
+
+  /* @media (min-width: 500) */
+  .text-vid {
+    padding-top: 50;
+  }
+  
+  .sm-sp {
+    margin-bottom: 80;
+  }
+
+  h1{
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  h2{
+    font-size: 2rem;
+  }
+  
+  /* iphones*/
+  @media (mim-width:544px){
+    
+    h1{
+      font-size: 1rem;
+    }
+    
+    h2{
+      font-size: 0.5rem;
+    }
+  
+    .logo{
+      margin-top: 20%;
+    }
+
+  }
+  
+  @media (mim-width:768px){
+    
+    h1{
+      font-size: 2.5rem;
+    } 
+  
+    h2{
+      font-size: 1.5rem;
+    }
+  }
+ 
+  @media (min-width: 1200px) {  
+    
+    h1 {font-size:4rem;}
+  
+    h2 {font-size:2rem}   
+  }
