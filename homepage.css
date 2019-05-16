@@ -1,23 +1,64 @@
 /* CSS file */
 
-body {
-      background-color: black;
-      font-family: 'Roboto';font-size: 22px;
-    }
 
-  #video1 {
+/* containers */
+body {
+    background-color: rgb(26, 23, 19);
+    font-family: 'Roboto', "sans serif";
+    font-size: 22px;
+}
+    
+a {
+    text-decoration: none;
+}
+    
+header {
+    height: 70px;
+    background-color: rgb(78, 165, 169);
+}
+
+.totem-logo {
+    height: 50px;
+    margin-top: 10px;
+}
+
+header a {
+    color: white;
+    font-size: 20px;
+}
+
+.landing-area p {
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.landing-art {
+    width: 50vw;
+    height: auto;
+    margin-top: 50px; 
+}
+
+.call-for-feedback {
+  background-color: white;
+  padding-top: 20px;
+}
+
+/* images/videos */
+
+#video1 {
     margin-top: 10%;
     margin-bottom: 10%;
     border-style: solid;
     border-width: 20px;
     border-color: aliceblue;
-  }
+}
 
-  .square{
+.square{
     height: 100px;
     width: 100px;
     background-color:rgb(51,196,92);
-  }
+}
 
   /* @media (min-width: 500) */
   .text-vid {
@@ -38,7 +79,7 @@ body {
   }
   
   /* iphones*/
-  @media (mim-width:544px){
+  @media (min-width:544px){
     
     h1{
       font-size: 1rem;
@@ -51,10 +92,16 @@ body {
     .logo{
       margin-top: 20%;
     }
-
+    
   }
   
-  @media (mim-width:768px){
+  @media (max-width: 768px) {
+    .landing-art {
+      width: 100vw;
+    }
+  }
+  
+  @media (min-width:768px){
     
     h1{
       font-size: 2.5rem;

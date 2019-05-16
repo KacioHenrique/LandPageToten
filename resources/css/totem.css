@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+:root {
+  --totem-black: #262319;
+  --button-red: #CD3156;
+}
+
+.totem-text {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 85px;
+  font-style: italic;
+  color: #D13156;
+  text-shadow: 2px 2px #FFFFFF;
+}
+
+
+.totem-text-dark-shadow {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 85px;
+  font-style: italic;
+  color: #D13156;
+  text-shadow: 2px 2px var(--totem-black);
+  line-height: 82px;
+}
+
+.insta-btn {
+  background-color: var(--button-red);
+  color: white;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+}
+
+.vertical-justify {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
