@@ -2,6 +2,8 @@
 
 :root {
   --totem-black: #262319;
+  --totem-red: #D13156;
+  --totem-green: #32C05C;
   --button-red: #CD3156;
 }
 
@@ -10,7 +12,7 @@
   font-weight: bold;
   font-size: 85px;
   font-style: italic;
-  color: #D13156;
+  color: var(--totem-green);
   text-shadow: 2px 2px #FFFFFF;
 }
 
@@ -20,7 +22,7 @@
   font-weight: bold;
   font-size: 85px;
   font-style: italic;
-  color: #D13156;
+  color: var(--totem-green);
   text-shadow: 2px 2px var(--totem-black);
   line-height: 82px;
 }
@@ -28,6 +30,7 @@
 .insta-btn {
   background-color: var(--button-red);
   color: white;
+  font-size: 20px;
   border-radius: 10px;
   padding-left: 15px;
   padding-right: 30px;

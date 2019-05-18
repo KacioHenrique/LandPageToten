@@ -1,0 +1,155 @@
+/* CSS file */
+:root {
+  --totem-black: #262319;
+  --totem-red: #D13156;
+  --totem-green: #32C05C;
+  --totem-blue: rgb(78, 165, 169);
+  --button-red: #CD3156;
+}
+
+
+/* containers */
+body {
+  background-color: rgb(26, 23, 19);
+  font-family: 'Roboto', "sans serif";
+  font-size: 22px;
+}
+    
+a {
+  text-decoration: none;
+}
+    
+header {
+  height: 70px;
+  background-color: var(--totem-blue);
+}
+
+.totem-logo {
+  height: 50px;
+  margin-top: 10px;
+}
+
+header a {
+  color: white;
+  font-size: 20px;
+}
+
+.landing-area p {
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.landing-art {
+  width: 50vw;
+  height: auto;
+  margin-top: 50px; 
+}
+
+.call-for-feedback {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.bg-dark {
+  background-color: var(--totem-black);
+}
+
+.bg-light {
+  background-color: #FFFFFF;
+}
+
+.bg-blue {
+  background-color: var(--totem-blue);
+}
+
+.vid-align {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+/* images/videos */
+
+#text-vid {
+  padding-right: 10vw;
+}
+
+#video1 {
+  /*margin-top: 10vh;
+  margin-bottom: 10vh;*/
+  border-style: solid;
+  border-width: 20px;
+  border-color: aliceblue;
+  border-radius: 20px;
+}
+
+.square{
+  height: 100px;
+  width: 100px;
+  background-color:rgb(51,196,92);
+}
+
+  /* @media (min-width: 500) */
+  .text-vid {
+    padding-top: 50;
+  }
+  
+  .sm-sp {
+    margin-bottom: 80;
+  }
+
+  h1{
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  h2{
+    font-size: 2rem;
+  }
+  
+  /* iphones*/
+  @media (min-width:544px){
+    
+    h1{
+      font-size: 1rem;
+    }
+    
+    h2{
+      font-size: 0.5rem;
+    }
+  
+    .logo{
+      margin-top: 20%;
+    }
+    
+  }
+  
+  @media (max-width: 576px) {
+    .landing-art {
+      width: 100vw;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .landing-art {
+      width: 50vw;
+    }
+  }
+  
+  @media (min-width:768px){
+    
+    h1{
+      font-size: 2.5rem;
+    } 
+  
+    h2{
+      font-size: 1.5rem;
+    }
+  }
+ 
+  @media (min-width: 1200px) {  
+    
+    h1 {font-size:4rem;}
+  
+    h2 {font-size:2rem}   
+  }

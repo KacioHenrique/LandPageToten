@@ -16,10 +16,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="resources/js/main.js"></script>
+  <script src="./resources/js/main.js"></script>
   
   <!-- aba -->
-  <link rel="icon" type="imagem/png" href="recourses/page-icon.png">
+  <link rel="icon" type="imagem/png" href="./resources/assets/imgs/page-icon.png">
   <title>Totem Clube</title>
 
   <!-- Fontes -->
@@ -27,8 +27,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="homepage.css">
-  <link rel="stylesheet" href="resources/css/totem.css">
+  <link rel="stylesheet" href="./resources/css/homepage.css">
+  <link rel="stylesheet" href="./resources/css/totem.css">
 
 </head>
 
@@ -36,53 +36,58 @@
 <!------->
 <body>
   <!-- Header -->
-  <header class="row">
-    
-    <img src="recourses/totem-web.png" 
-         class="rounded d-block totem-logo"
-         alt="Logo totem"/>
-    
-    <a href="#tutorial">Como Funciona</a>
-    <a href="#totem-team">Quem somos</a>
-    
+  <header class="row bg-blue">
+    <!-- <div class="min-top-logo">
+    </div> -->
+
+    <div class="top-logo">
+      <img src="./resources/assets/imgs/totem-web.png" 
+           class="rounded d-block totem-logo"
+           alt="Logo totem"/>
+    </div>
+
+    <div class="ml-auto">
+      <a href="#tutorial">
+        <span>Como Funciona</span>
+      </a>
+      <a href="#totem-team">
+        <span>Quem somos</span>
+      </a>
+    </div>
   </header>
 
-  <div class="container-fluid">
+  <!-- <div class="container-fluid"> -->
     <!-- seção 1 - Landing Area -->
     <div class="row align-items-center landing-area">
-        <!-- left part -->
-        <div class="col-md-6 col-sm-12">
-            
-            <h1 class="totem-text text-left text-vid">
-              Leia e sinta
-            </h1>
-            
-            <p>
-              Uma nova experiência<br/>
-              de leitura imersiva está chegando
-            </p>
-            
-            <button class="insta-btn" onclick="openInstagram()"> 
-            <i class="fab fa-instagram"></i>
-            SINTA A EXPERIÊNCIA
-        </button>
-            
-        </div>
+      <!-- left part -->
+      <div class="offset-md-1 col-md-5 offset-sm-1 col-sm-11 offset-1 col-11">
+        <h1 class="totem-text text-left text-vid">
+          Leia e sinta
+        </h1>
         
-        <!-- right part -->
-        <div class="col-md-6 col-sm-12 sm-sp">
-          
-          <img class="landing-art" 
-               src="recourses/landing-art.png"
-               alt="Uma menina passando as páginas de um grande livro"/> 
-        </div>
+        <p>
+          Uma nova experiência<br/>
+          de leitura imersiva está chegando
+        </p>
+        
+        <button class="insta-btn" onclick="openInstagram()"> 
+          <i class="fab fa-instagram"></i>
+          SINTA A EXPERIÊNCIA
+        </button>
+      </div>
+      
+      <!-- right part -->
+      <div class="col-md-6 col-sm-12 sm-sp">
+        <img class="landing-art" 
+             src="resources/assets/imgs/landing-art.png"
+             alt="Uma menina passando as páginas de um grande livro"/> 
+      </div>
     </div>
      
 
     <!-- sessão 2 - Call for Feedback-->       
-    <div class="row call-for-feedback">
-      <div class="col-md-6 col-sm-12 text-right">
-        
+    <div class="row call-for-feedback bg-light justify-content-between">
+      <div class="col-md-4 offset-sm-1 col-sm-10 offset-1 col-10 text-right vid-align">
         <h1 class="totem-text-dark-shadow">
           Seu pitaco <br>
           importa!
@@ -101,22 +106,23 @@
       
       <!-- vídeo -->
       <div class="col-md-6 col-sm-12">
-        
-        <div class="embed-responsive embed-responsive-4by3" id="video1">
-          <iframe class="embed-responsive-item" 
-            src="recourses/promo velhinha_blackBG.mp4" 
+        <div class="embed-responsive embed-responsive-4by3 vid-align" id="video1">
+          <!-- <iframe class="embed-responsive-item" 
+            src="resources/assets/videos/promo velhinha_blackBG.mp4" 
             allowfullscreen>        
-          </iframe>
-        </div>
-        
+          </iframe> -->
+          <video controls="controls">
+            <source src="resources/assets/videos/promo velhinha_blackBG.mp4" type="video/mp4">
+            <object data="">
+            <embed src="Yes Bank Advertisment.mp4">
+          </div>
       </div>
     </div>
     
     <!-- Sessão 3 - Tutorial -->
-    <div class="row tutorial">
-       
-       <div class="col-md-12 col-sd->
-            <h1>Como funciona?</h1>
+    <div class="row tutorial bg-dark">
+       <div class="col-md-6 col-sm-12">
+            <h1 class="blue-totem-text">Como funciona?</h1>
         </div>
         
         <div>
@@ -130,9 +136,7 @@
                  alt=""/>
         </div>
     </div>
-    
-  </div>
-  
+  <!-- </div> -->
 </body>
 
 
