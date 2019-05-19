@@ -27,6 +27,26 @@
   line-height: 82px;
 }
 
+.totem-text-blue {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 85px;
+  font-style: italic;
+  color: var(--totem-blue);
+  text-shadow: 2px 2px #FFFFFF;
+  line-height: 82px;
+}
+
+.totem-text-white {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 85px;
+  font-style: italic;
+  color: #FFFFFF;
+  text-shadow: 2px 2px var(--totem-black);
+  line-height: 82px;
+}
+
 .insta-btn {
   background-color: var(--button-red);
   color: white;

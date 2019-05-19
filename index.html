@@ -13,11 +13,6 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="./resources/js/main.js"></script>
-  
   <!-- aba -->
   <link rel="icon" type="imagem/png" href="./resources/assets/imgs/page-icon.png">
   <title>Totem Clube</title>
@@ -100,7 +95,7 @@
       
         <button class="insta-btn" onclick="openInstagram()"> 
             <i class="fab fa-instagram"></i>
-            SINTA A EXPERIÊNCIA
+            CONTA PRA GENTE
         </button>
       </div>
       
@@ -112,32 +107,93 @@
             allowfullscreen>        
           </iframe> -->
           <video controls="controls">
-            <source src="resources/assets/videos/promo velhinha_blackBG.mp4" type="video/mp4">
-            <object data="">
-            <embed src="Yes Bank Advertisment.mp4">
-          </div>
-      </div>
+            <source src="resources/assets/videos/promo velhinha_blackBG.mp4" type="video/mp4" />
+            <object data=""></object>
+            <embed src="Yes Bank Advertisment.mp4" />
+          </video>
+        </div>
+      </div><
     </div>
     
     <!-- Sessão 3 - Tutorial -->
     <div class="row tutorial bg-dark">
-       <div class="col-md-6 col-sm-12">
-            <h1 class="blue-totem-text">Como funciona?</h1>
+       <div class="col-md-12 col-sm-12 text-center header-space">
+            <h1 class="totem-text-blue">Como funciona?</h1>
         </div>
         
-        <div>
-            <img src=""
-                 alt=""/>
-                 
-            <img src=""
-                 alt=""/>
-                 
-            <img src=""
-                 alt=""/>
+        <div class="offset-md-0 col-md-4 offset-sm-2 col-sm-8 offset-2 col-8 mr-auto text-center single-img">
+            <img src="./resources/assets/imgs/tutorial1.png"
+                 alt="Segure a tela para ler"/>
+        </div>
+        <div class="offset-md-0 col-md-4 offset-sm-2 col-sm-8 offset-2 col-8 mr-auto ml-auto text-center single-img">
+          <img src="./resources/assets/imgs/tutorial2.png"
+               alt="Solte a tela ao ver o sinal"/>
+        </div> 
+        <div class="offset-md-0 col-md-4 offset-sm-2 col-sm-8 offset-2 col-8 mr-auto text-center single-img">
+          <img src="./resources/assets/imgs/tutorial3.png"
+               alt="Ao ouvir o som, segure a tela de novo"/>
         </div>
     </div>
-  <!-- </div> -->
+
+    <div class="row bg-red section">
+      <div class=" offset-md-3 col-md-6 col-12 col-sm-12 text-center">
+        <h1 class="totem-text-white">Curtiu a ideia?</h1>
+      </div>
+      <div class=" offset-md-3 col-md-6 col-12 col-sm-12 text-center">
+        <!-- TODO: Add here the form of the mailchimp -->
+        <form action="#" method="get" accept-charset="utf-8">
+          <input class="form-control rounded" type="text" placeholder="Seu nome">
+          <input class="form-control rounded" type="text" placeholder="Seu email">
+          <span>não mandamos spam =)</span><br/>
+          <button type="submit" class="btn btn-primary mb-2">Receber novidades</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="row bg-light section">
+      <div class="offset-md-1 col-md-3 offset-sm-1 col-sm-10 offset-1 col-10">
+        <div>
+          <h1 class="totem-text-blue">Conheça os criadores</h1>
+        </div>
+        <div class="min-text">
+          <p>
+            Somos o <b>Too Long; Didn't Read</b> (Nem Li & Nem Lerei em tradução livre), e nossa missão é levar a leitura de volta ao dia a dia de todos os seus amantes.
+          </p>
+          <p>
+            A gente sabe dos vários contratempos que acontecem na rotina de um brasileiro sofredor (inclusive sofremos com eles também) e queremos mostrar que esse momento mágico de <b>ler e sentir</b> um livro, conto ou poema, ainda merece um tempinho da sua vida =)
+          </p>
+          <img src="./resources/assets/imgs/tldr-logo.png">
+        </div>
+      </div>
+
+      <div class="offset-md-1 col-md-7 offset-sm-1 col-sm-10 offset-1 col-10">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 single-img">
+              <img src="./resources/assets/imgs/ailton.png" alt="Ailton Lessa" />
+            </div>
+            <div class="col-md-4 single-img">
+              <img src="./resources/assets/imgs/caio.png" alt="Caio Gomes" />
+            </div>
+            <div class="col-md-4 single-img">
+              <img src="./resources/assets/imgs/camila.png" alt="Camila Simões" />
+            </div>
+            <div class="col-md-4 single-img">
+              <img src="./resources/assets/imgs/jorge.png" alt="Jorge" />
+            </div>
+            <div class="col-md-4 single-img">
+              <img src="./resources/assets/imgs/kacio.png" alt="Kacio Henrique" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- Javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="./resources/js/main.js"></script>
 </body>
-
-
 </html>
