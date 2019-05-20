@@ -80,6 +80,8 @@ header {
   margin-right: 30px;
   text-align: center;
   vertical-align: middle;
+  line-height: 25px;
+  padding-top: 8px;
   /*line-height: 25px;*/
 }
 
@@ -146,6 +148,18 @@ header {
 header a {
   color: white;
   font-size: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+header .nav-block:hover {
+  background-color: var(--totem-red);
+  border-radius: 5px;
 }
 
 h1{
