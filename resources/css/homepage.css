@@ -12,6 +12,7 @@
 .totem-logo {
   height: 50px;
   margin-top: 10px;
+  margin-left: 50px;
 }
 
 .landing-area p {
@@ -72,6 +73,22 @@ header {
 
 #text-vid {
   padding-right: 10vw;
+}
+
+.nav-block {
+  width: 100px;
+  margin-right: 30px;
+  text-align: center;
+  vertical-align: middle;
+  /*line-height: 25px;*/
+}
+
+.nav-block-half {
+  width: 30px;
+  margin-right: 30px;
+  text-align: center;
+  vertical-align: middle;
+  /*line-height: 25px;*/
 }
 
 #video1 {
@@ -174,6 +191,15 @@ form span {
 @media (max-width: 576px) {
   .landing-art {
     width: 100vw;
+  }
+
+  .nav-block {
+    display: none;
+  }
+
+  .top-logo {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

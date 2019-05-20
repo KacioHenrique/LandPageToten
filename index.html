@@ -31,24 +31,29 @@
 <!------->
 <body>
   <!-- Header -->
-  <header class="row bg-blue">
+  <header class="row bg-blue nav-head">
     <!-- <div class="min-top-logo">
     </div> -->
 
-    <div class="top-logo">
+    <div class="top-logo ">
       <img src="./resources/assets/imgs/totem-web.png" 
            class="rounded d-block totem-logo"
            alt="Logo totem"/>
     </div>
 
-    <div class="ml-auto">
+    <!-- <div class="ml-auto"> -->
+    <div class="ml-auto nav-block">
       <a href="#tutorial">
-        <span>Como Funciona</span>
-      </a>
-      <a href="#totem-team">
-        <span>Quem somos</span>
+        Como Funciona
       </a>
     </div>
+    <div class="nav-block">
+      <a href="#totem-team">
+        Quem somos
+      </a>
+    </div>
+    <div class="nav-block-half"></div>
+    <!-- </div> -->
   </header>
 
   <!-- <div class="container-fluid"> -->
@@ -117,7 +122,7 @@
     </div>
     
     <!-- Sessão 3 - Tutorial -->
-    <div class="row tutorial bg-dark">
+    <div id="tutorial" class="row tutorial bg-dark">
        <div class="col-md-12 col-sm-12 text-center header-space">
             <h1 class="totem-text-blue">Como funciona?</h1>
         </div>
