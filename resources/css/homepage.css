@@ -1,6 +1,6 @@
 /* CSS file */
 :root {
-  --totem-black: #262319;
+  --totem-black: rgb(26, 23, 19);
   --totem-red: #D13156;
   --totem-green: #32C05C;
   --totem-blue: rgb(78, 165, 169);
@@ -201,6 +201,10 @@ form span {
   color: white;
   font-size: 14px;
 }
+
+.text-field {
+  margin-left: : 50px;
+}
   
 /* iphones*/
 @media (min-width:544px){
@@ -236,14 +240,14 @@ form span {
 
 @media (min-width: 576px) {
   .landing-art {
-    width: 50vw;
+    width: 60vw;
   }
 }
 
 @media (min-width:768px){
   
   h1{
-    font-size: 2.5rem;
+    font-size: 1rem;
   } 
 
   h2{
