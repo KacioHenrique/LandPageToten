@@ -141,17 +141,26 @@
         </div>
     </div>
 
+    <!-- Sessão 4 - Pegar Emails -->
     <div class="row bg-red section">
       <div class=" offset-md-3 col-md-6 col-12 col-sm-12 text-center">
         <h1 class="totem-text-white">Curtiu a ideia?</h1>
       </div>
       <div class=" offset-md-3 col-md-6 col-12 col-sm-12 text-center">
         <!-- TODO: Add here the form of the mailchimp -->
-        <form action="#" method="get" accept-charset="utf-8">
-          <input class="form-control rounded" type="text" placeholder="Seu nome">
-          <input class="form-control rounded" type="text" placeholder="Seu email">
+        <form action="https://gmail.us20.list-manage.com/subscribe/post" method="POST" accept-charset="utf-8">
+          <input type="hidden" name="u" value="c69c41e7fe28d156858396f6d">
+          <input type="hidden" name="id" value="a9318839a7">
+        
+          <input class="form-control rounded" type="text" name="MERGE1" id="MERGE1" placeholder="Seu nome">
+          <input class="form-control rounded" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" placeholder="Seu email">
+          <input type="hidden" name="ht" value="c4e72527ce000bcf97cd3864b23b7d84c698924f:MTU1ODM4NDAwMS43OTM2">
+    	  <input type="hidden" name="mc_signupsource" value="hosted">
+          
           <span>não mandamos spam =)</span><br/>
-          <button type="submit" class="btn btn-primary mb-2">Receber novidades</button>
+          
+          <!-- <button type="submit" class="btn btn-primary mb-2">Receber novidades</button> -->
+          <input type="submit" class="btn btn-primary" name="submit" value="Subscribe">
         </form>
       </div>
     </div>
